@@ -1,0 +1,30 @@
+.calculator {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.calculator input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.calculator button {
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
